@@ -13,6 +13,7 @@ public class Solution {
         if (char.IsUpper(word[0]) && word.Substring(1).ToLower() == word.Substring(1))
             return true;
         
+        // Se nenhuma das condições for atendida, retorna falso
         return false; 
     }
 }
